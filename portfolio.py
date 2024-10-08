@@ -128,7 +128,7 @@ with col1:
     st.markdown('<div class="text-reveal-container"><div class="text-reveal"></div></div>', unsafe_allow_html=True)
 
     # Button to download resume (PDF)
-    with open("SaranKoundinya_tummalagunta.pdf", "rb") as file:  # Replace with your actual resume file path
+    with open("Sarank_resume_up.pdf", "rb") as file:  # Replace with your actual resume file path
         btn = st.download_button(
             label="Download Resume",
             data=file,
